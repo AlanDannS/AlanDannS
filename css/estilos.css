@@ -9,4 +9,20 @@ h4,
 h5,
 h6 {
     font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    line-height: 150%;
+    font-size: 40px;
+    letter-spacing: 150%;
+    text-transform: capitalize;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-imageContainer {
+    width: 500px;
 }
