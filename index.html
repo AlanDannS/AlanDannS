@@ -10,64 +10,66 @@
 
 <body>
 
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="" alt="Logo de https://alandanns.github.io/">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#experiencia">Experiencia</a>
+                        <a class="link" href="#experiencia">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#contacto">Trabajemos Juntos</a>
+                        <a class="link" href="#contacto">Trabajemos Juntos</a>
                     </li>
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>
             Hola soy <strong>Alan Nuñez</strong> <br>Estudiante de <strong>Ingenieria en Sistemas</strong> <br>con pasion por el <strong>aprendizaje.</strong>
         </h1>
-        <img src="https://scontent.fmex10-2.fna.fbcdn.net/v/t1.0-9/55882067_2103147923066449_6212276796134522880_n.jpg?_nc_cat=100&_nc_ohc=2RLHyNU1sCQAX_CIBTP&_nc_ht=scontent.fmex10-2.fna&oh=0145b1abd8c1b1007a6ff25c4ed0c175&oe=5ECFA8BC" alt="Imagen de https://alandanns.github.io/"
-            width="400">
+        <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/36475431_2059479164372514_4183953962040295424_n.jpg?_nc_cat=108&_nc_ohc=CiDPLOQaBsMAX8FDs5O&_nc_ht=scontent-lax3-1.xx&oh=4a7d6a96f270e1a1651412bca5eb47fe&oe=5EBCF369" alt="Imagen de https://alandanns.github.io/"
+            width="600">
     </section>
-    <section id="portafolio">
+    <section class="portfolio" id="portafolio">
         <h2>Portafolio (proyectos destacados)</h2>
-        <article>
-            <h3>Platzi Hyperblog</h3>
-            <h6>HTML / CSS</h6>
-            <p><small><strong>Fecha:</strong> 07/02/2020</small></p>
-            <p><small><strong>Puedes verlo:</strong> <a href="https://alandanns.github.io/hyperblog/blogpost" target="_blank">Aqui</a></small></p>
-            <p>Este fue un proyecto desarrollado en el curso de Git y GitHub de la plataforma Platzi</p>
-            <img src="img/HyperBlog.png" alt="Imagen del HyperBlog" width="500px">
+        <article class="project">
+            <h3 class="project-title">Platzi Hyperblog</h3>
+            <h6 class="project-course">HTML / CSS</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 07/02/2020</small></p>
+            <p class="project-url"><small><strong>Puedes verlo:</strong> <a href="https://alandanns.github.io/hyperblog/blogpost" target="_blank">Aqui</a></small></p>
+            <p class="project-description">Este fue un proyecto desarrollado en el curso de Git y GitHub de la plataforma Platzi</p>
+            <figure class="project-imageContainer">
+                <img class="project-image" src="img/HyperBlog.png" alt="Imagen del HyperBlog" width="500px">
+            </figure>
         </article>
     </section>
     <section id="experiencia">
         <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="https://scontent.fmex10-2.fna.fbcdn.net/v/t1.0-9/p720x720/76894236_2456944374625989_3960153936484106240_o.jpg?_nc_cat=102&_nc_ohc=r_tbG2CaOBYAX-hJ4za&_nc_ht=scontent.fmex10-2.fna&_nc_tp=6&oh=282b3297e600b778b3d8e7947203dd1f&oe=5EB98DC4" alt="Imagen del curso"
-                    width="300">
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="https://scontent.fmex10-2.fna.fbcdn.net/v/t1.0-9/p720x720/76894236_2456944374625989_3960153936484106240_o.jpg?_nc_cat=102&_nc_ohc=r_tbG2CaOBYAX-hJ4za&_nc_ht=scontent.fmex10-2.fna&_nc_tp=6&oh=282b3297e600b778b3d8e7947203dd1f&oe=5EB98DC4"
+                    alt="Imagen del curso" width="300">
             </figure>
-            <h3>Curso de Programacion en C 2019</h3>
-            <p>Participe impartiendo un curso de programacion en C para los alumnos de primer semestre de mi carrera.</p>
-            <a>Ver Curso</a>
+            <h3 class="event-title">Curso de Programacion en C 2019</h3>
+            <p class="event-description">Participe impartiendo un curso de programacion en C para los alumnos de primer semestre de mi carrera.</p>
+            <a class="event-url">Ver Curso</a>
         </article>
     </section>
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section class="contacto" id="contacto">
+        <form class="form-email" action="/suscripcion/">
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Dejame tu email." id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 
 </body>
 
