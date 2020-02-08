@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -18,10 +19,30 @@ h1 {
     letter-spacing: 150%;
     text-transform: capitalize;
     color: white;
+    margin: 100px 150px 70px 30px;
 }
 
 h1 strong {
     color: #026fff;
+}
+
+.hero {
+    background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/36475431_2059479164372514_4183953962040295424_n.jpg?_nc_cat=108&_nc_ohc=CiDPLOQaBsMAX8FDs5O&_nc_ht=scontent-lax3-1.xx&oh=4a7d6a96f270e1a1651412bca5eb47fe&oe=5EBCF369);
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 720px;
+    background-color: #1b2127;
+}
+
+.portfolio {
+    background: #FAFAFA;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background: white;
 }
 
 .project-details {
@@ -40,12 +61,4 @@ h1 strong {
 .header a {
     color: white;
     text-decoration: none;
-}
-
-.hero {
-    background-image: url(https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/36475431_2059479164372514_4183953962040295424_n.jpg?_nc_cat=108&_nc_ohc=CiDPLOQaBsMAX8FDs5O&_nc_ht=scontent-lax3-1.xx&oh=4a7d6a96f270e1a1651412bca5eb47fe&oe=5EBCF369);
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: 720px;
-    background-color: #1b2127;
 }
