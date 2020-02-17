@@ -242,7 +242,7 @@ figure {
 
 .form-email input {
     border-color: gray;
-    padding: 5px 20px 5px 25px;
+    padding: 10px 20px 10px 25px;
     border-style: solid;
     border-radius: 5px;
     background-image: url("../img/sobre.svg");
@@ -280,7 +280,11 @@ figure {
 
 /*Desktop firs, que se empiece desde el MQ mas grande*/
 
-@media screen and (max-width:1024px) {}
+@media screen and (max-width:1024px) {
+    .container {
+        padding: 0 1em;
+    }
+}
 
 @media screen and (max-width:767px) {
     .header {
@@ -353,6 +357,25 @@ figure {
     }
     .contact {
         height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button {
+        margin: 1em auto;
+    }
+    .form-email h3 {
+        margin-top: 0;
+    }
+    .footer {
+        display: block;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+    .social-link {
+        width: 40px;
+        height: 40px;
+        background-size: 100%;
     }
 }
 
