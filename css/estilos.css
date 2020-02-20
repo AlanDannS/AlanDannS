@@ -283,13 +283,24 @@ figure {
 @media screen and (max-width:1024px) {
     .container {
         padding: 0 1em;
+        overflow: hidden;
     }
-}
-
-@media screen and (max-width:767px) {
+    .hero {
+        height: auto;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
     .header {
         display: block;
         height: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        justify-content: center;
     }
     .header ol {
         display: initial;
@@ -351,6 +362,12 @@ figure {
     .project-details {
         font-size: 12px;
     }
+    .project-description {
+        font-size: 1.3em;
+    }
+    .aqui {
+        font-size: 1.5em;
+    }
     .event-detail {
         margin: -2em .5em .5em;
         padding: 1em;
@@ -379,4 +396,15 @@ figure {
     }
 }
 
-@media screen and (max-width:320px) {}
+@media screen and (max-width:320px) {
+    h1 {
+        font-size: 1.2em;
+        /* background: rgb(0, 0, 0, .5); */
+    }
+    .hero {
+        padding: 2em 1em;
+    }
+}
+
+
+/* 8Mir19AN */
