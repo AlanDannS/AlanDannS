@@ -284,6 +284,7 @@ figure {
     .container {
         padding: 0 1em;
         overflow: hidden;
+        width: auto;
     }
     .hero {
         height: auto;
