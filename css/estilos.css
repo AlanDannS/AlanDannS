@@ -345,6 +345,9 @@ figure {
         display: block;
         height: auto;
     }
+    .ol-menu {
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (max-width:768px) {
