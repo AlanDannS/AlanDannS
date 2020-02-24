@@ -268,28 +268,6 @@ figure {
     background-image: url("../img/github.svg");
 }
 
-.form-email input {
-    border-color: gray;
-    padding: 10px 20px 10px 25px;
-    border-style: solid;
-    border-radius: 5px;
-    background-image: url("../img/sobre.svg");
-    background-size: 15px 15px;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-position-x: 5px;
-}
-
-.form-email button {
-    display: block;
-    background: transparent;
-    color: white;
-    padding: 10px 0;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 10px;
-}
-
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
 }
