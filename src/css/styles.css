@@ -114,7 +114,6 @@ nav li {
 main {
     max-width: 1600px;
     margin: auto;
-
 }
 
 /* Seccion About */
@@ -128,7 +127,7 @@ main {
     align-items: center;
 }
 
-.about-target{
+.about-target {
     width: 85%;
     height: 85%;
     background-color: #eee;
@@ -136,44 +135,43 @@ main {
     border-radius: 5px;
 }
 
-.about-img{
+.about-img {
     width: 40%;
     margin: 20px 0 0 0;
     font-size: 20px;
     border-right: 2px solid var(--color-principal);
 }
 
-.about-img img{
+.about-img img {
     width: 60%;
     border: 15px solid #11111180;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.about-img p{
+.about-img p {
     width: 80%;
     margin: 10px auto;
 }
 
-.about-img cite{
+.about-img cite {
     font-size: 15px;
 }
 
-.about-texto{
+.about-texto {
     width: 60%;
     height: 50%;
     margin: 20px 0 0 0;
     text-align: center;
 }
 
-.about-texto h2{
+.about-texto h2 {
     font-size: 44px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-
-.about-texto p{
+.about-texto p {
     width: 80%;
     margin: auto;
     font-size: 20px;
@@ -181,7 +179,7 @@ main {
     text-align: center;
 }
 
-.about-sociales{
+.about-sociales {
     width: 100%;
     height: 60px;
     margin-top: 50px;
@@ -190,11 +188,11 @@ main {
     align-items: center;
 }
 
-.about-sociales a{
+.about-sociales a {
     text-decoration: none;
     color: #111;
 }
-.about-sociales i{
+.about-sociales i {
     width: 40px;
     height: 40px;
     font-size: 40px;
@@ -202,7 +200,7 @@ main {
     transition: 1s;
 }
 
-.about-sociales i:hover{
+.about-sociales i:hover {
     transition: 0s;
     color: var(--color-principal);
     text-shadow: 0 0 5px var(--color-principal);
@@ -210,15 +208,15 @@ main {
 
 /* Tecnologias */
 
-.tecnologias{
-    width:85%;
+.tecnologias {
+    width: 85%;
     margin: auto;
     height: 35%;
     margin-top: 10px;
     text-align: center;
 }
 
-.tecnologias .iconos{
+.tecnologias .iconos {
     width: 100%;
     margin-top: 15px;
     display: flex;
@@ -227,40 +225,38 @@ main {
     align-items: flex-start;
 }
 
-.tecnologias .iconos div{
+.tecnologias .iconos div {
     width: 100px;
     height: 100px;
     margin: 10px 20px;
 }
 
-.tecnologias .iconos div i{
+.tecnologias .iconos div i {
     font-size: 75px;
-
 }
 
-.tecnologias .iconos div p{
+.tecnologias .iconos div p {
     font-size: 20px;
 }
 
 /* Proyectos */
-.proyectos{
+.proyectos {
     width: 100%;
     text-align: center;
     margin: 40px auto;
 }
 
-.proyectos h2{
+.proyectos h2 {
     margin: 20px auto;
-
 }
-.content-proyectos{
+.content-proyectos {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     width: 450px;
     height: 300px;
     margin: 20px 5px;
@@ -273,11 +269,11 @@ main {
     border-radius: 10px;
 }
 
-.card:hover{
+.card:hover {
     /* transform: translateY(-20px); */
 }
 
-.card::before{
+.card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -292,11 +288,11 @@ main {
     border-radius: 10px;
 }
 
-.card:hover::before{
+.card:hover::before {
     opacity: 1;
 }
 
-.card img{
+.card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -306,7 +302,7 @@ main {
     border-radius: 10px;
 }
 
-.card .info{
+.card .info {
     position: relative;
     z-index: 3;
     color: #fff;
@@ -316,22 +312,22 @@ main {
     text-align: center;
 }
 
-.card:hover .info{
+.card:hover .info {
     opacity: 1;
     transform: translateY(0px);
 }
 
-.card .info h3{
-font-size: 25px;
-margin-top: 10px;
+.card .info h3 {
+    font-size: 25px;
+    margin-top: 10px;
 }
 
-.card .info p{
+.card .info p {
     width: 85%;
     margin: 10px auto;
 }
 
-.card .info-tec{
+.card .info-tec {
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -348,7 +344,7 @@ margin-top: 10px;
     text-decoration: none;
 }
 
-footer{
+footer {
     width: 100%;
     max-width: 1600px;
     margin: auto;
@@ -356,27 +352,286 @@ footer{
     background: #111;
 }
 
-footer h2{
+footer h2 {
     width: 60%;
     margin: auto;
     color: #fff;
     text-align: center;
 }
 
-footer p{
+footer p {
     color: #fff;
     font-size: 20px;
 }
 
-footer p i{
+footer p i {
     color: var(--color-principal);
 }
 
-footer .about-sociales{
+footer .about-sociales {
     width: 50%;
     margin: 10px auto;
 }
 
-footer .about-sociales a{
+footer .about-sociales a {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    /* Seccion Principal */
+    .hero .text {
+        width: 70%;
+    }
+
+    .hero .text h2 {
+        font-size: 34px;
+    }
+
+    .hero .text h1 {
+        font-size: 44px;
+    }
+
+    .btn-neon {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    /* Seccion About */
+
+    .about {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .about-target {
+        height: 75%;
+    }
+
+    .about-img img {
+        width: 55%;
+        border: 10px solid #11111180;
+    }
+
+    .about-img p {
+        width: 95%;
+        margin: 10px auto;
+        font-size: 20px;
+    }
+
+    .about-img cite {
+        font-size: 12px;
+    }
+
+    .about-texto {
+        width: 60%;
+        height: 50%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+
+    .about-texto h2 {
+        font-size: 34px;
+        margin: 10px 0;
+    }
+
+    .about-texto p {
+        width: 95%;
+        margin: auto;
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .about-sociales i {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        text-align: center;
+        transition: 1s;
+    }
+
+    /* Tecnologias */
+
+    .tecnologias {
+        width: 95%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .tecnologias .iconos {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tecnologias .iconos div {
+        width: 80px;
+        height: 80px;
+        margin: 10px 20px;
+    }
+
+    .tecnologias .iconos div i {
+        font-size: 35px;
+    }
+
+    .tecnologias .iconos div p {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 130px;
+    }
+
+    footer h2 {
+        width: 60%;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+    }
+
+    footer p {
+        color: #fff;
+        font-size: 15px;
+    }
+
+    footer p i {
+        color: var(--color-principal);
+    }
+
+    footer .about-sociales {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    footer .about-sociales a {
+        color: #fff;
+    }
+}
+
+@media (max-width: 440px) {
+    .hero .text h2 {
+        font-size: 28px;
+    }
+
+    .hero .text h1 {
+        font-size: 32px;
+    }
+
+    /* Seccion About */
+
+    .about-target {
+        width: 90%;
+        height: 90%;
+        display: block;
+    }
+
+    .about-img {
+        width: 100%;
+        margin: 10px 0 0 0;
+        border: none;
+    }
+
+    .about-img img {
+        width: 40%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .about-img p {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+
+    .about-img cite {
+        font-size: 12px;
+    }
+
+    .about-texto {
+        width: 100%;
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    .about-texto h2 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about-texto p {
+        width: 100%;
+        margin: auto;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    .about-sociales {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .about-sociales a {
+        text-decoration: none;
+        color: #111;
+    }
+
+    .about-sociales i {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+
+    /* Tecnologias */
+
+    .tecnologias {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .tecnologias .iconos {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .tecnologias .iconos div {
+        width: 100px;
+        margin: 15px 15px;
+    }
+
+    .tecnologias .iconos div i {
+        font-size: 55px;
+    }
+
+    .tecnologias .iconos div p {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 110px;
+    }
+
+    footer h2 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer .about-sociales {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    footer .about-sociales a {
+        font-size: 20px;
+    }
+
+    footer .about-sociales i {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
 }
