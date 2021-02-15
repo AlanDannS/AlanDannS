@@ -257,11 +257,13 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card{
     width: 450px;
     height: 300px;
+    margin: 20px 5px;
     background: transparent;
     position: relative;
     display: flex;
@@ -344,4 +346,37 @@ margin-top: 10px;
     padding: 2px;
     font-size: 15px;
     text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    height: 150px;
+    background: #111;
+}
+
+footer h2{
+    width: 60%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+footer p{
+    color: #fff;
+    font-size: 20px;
+}
+
+footer p i{
+    color: var(--color-principal);
+}
+
+footer .about-sociales{
+    width: 50%;
+    margin: 10px auto;
+}
+
+footer .about-sociales a{
+    color: #fff;
 }
