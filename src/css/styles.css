@@ -400,11 +400,12 @@ footer .about-sociales a {
 
     .about {
         width: 100%;
-        height: 75vh;
+        height: auto;
+        margin: 15px auto;
     }
 
     .about-target {
-        height: 75%;
+        height: auto;
     }
 
     .about-img img {
@@ -520,7 +521,7 @@ footer .about-sociales a {
 
     .about-target {
         width: 90%;
-        height: 90%;
+        height: auto;
         display: block;
     }
 
