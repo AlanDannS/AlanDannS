@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = () => {
   return (
-    <div className="card column is-one-fifth">
+    <div className="card column is-one-fifth-desktop is-one-third-tablet is-four-fifths-mobile" id='card'>
       <div className="card-image">
         <figure className="image is-4by3">
           <img
@@ -14,16 +14,16 @@ export const Card = () => {
       <div className="card-content">
         <h2>Title</h2>
         <p>
-            <span class="tag is-black">Black</span>
-            <span class="tag is-dark">Dark</span>
-            <span class="tag is-light">Light</span>
-            <span class="tag is-white">White</span>
-            <span class="tag is-primary">Primary</span>
-            <span class="tag is-link">Link</span>
-            <span class="tag is-info">Info</span>
-            <span class="tag is-success">Success</span>
-            <span class="tag is-warning">Warning</span>
-            <span class="tag is-danger">Danger</span>
+            <span className="tag is-black">Black</span>
+            <span className="tag is-dark">Dark</span>
+            <span className="tag is-light">Light</span>
+            <span className="tag is-white">White</span>
+            <span className="tag is-primary">Primary</span>
+            <span className="tag is-link">Link</span>
+            <span className="tag is-info">Info</span>
+            <span className="tag is-success">Success</span>
+            <span className="tag is-warning">Warning</span>
+            <span className="tag is-danger">Danger</span>
           </p>
         <div className="content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec

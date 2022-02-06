@@ -2,15 +2,26 @@ import React from 'react';
 
 export const Navbar = () => {
     const [isActive, setIsActive] = React.useState(false);
-    const [theme, setTheme] = React.useState(false);
+    const [theme, setTheme] = React.useState(true);
 
     React.useEffect(()=>{
       if(theme){
         document.getElementById('ht').style.backgroundColor='#efefef';
         document.getElementById('body').style.color='#000';
+        const cards = document.getElementsByClassName('card');
+        for (let i = 0 ; i <cards.length ; i++){
+          cards[i].style.backgroundColor= '#efefef';
+          cards[i].style.boxShadow= ' 2px 3px 17px -15px rgba(33,33,33,1)';
+        }
       }else{
         document.getElementById('ht').style.backgroundColor='#212121';
         document.getElementById('body').style.color='#fff';
+        const cards = document.getElementsByClassName('card');
+        for (let i = 0 ; i <cards.length ; i++){
+          cards[i].style.backgroundColor= '#212121';
+          cards[i].style.boxShadow= ' 2px 3px 17px -15px rgba(239,239,239,1)';
+        }
+        
       }
     });
 
@@ -33,7 +44,7 @@ export const Navbar = () => {
     <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
   
       <div className="navbar-end">
-        <div className="navbar-item">
+        <div className="navbar-item" id="menu-nav">
         <a className="navbar-item" href="/">
           About
         </a>
