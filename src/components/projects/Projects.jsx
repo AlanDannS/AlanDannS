@@ -1,31 +1,37 @@
 import React from 'react';
-import { About } from '../about/About';
+import { Fade } from 'react-reveal';
 import { Card } from './Card';
 
-export const Projects = () => {
-  const [activeClass, setActiveClass] = React.useState("web")
+const proyectosData = require('../../projects.json');
 
-  return <main >
-  <h2 className='title-project' >
+export const Projects = () => {
+  const [projects, setProjects] = React.useState();
+
+  React.useEffect(()=>{
+    setProjects(proyectosData);
+  },[proyectosData]);
+
+  return <section id="projects" className="projects" >
+  <h2>
     Projects
   </h2>
-  <p className="panel-tabs">
-    <a className={`panel-option ${activeClass==='all' && 'is-active'}`} onClick={()=>{setActiveClass('all')}} ><i className="uil uil-arrow"></i>All</a>
-    <a className={`panel-option ${activeClass==='web' && 'is-active'}`} onClick={()=>{setActiveClass('web')}} ><i className="uil uil-browser"></i>Web</a>
-    <a className={`panel-option ${activeClass==='mobile' && 'is-active'}`} onClick={()=>{setActiveClass('mobile')}} ><i className="uil uil-mobile-android"></i>Mobile</a>
-    <a className={`panel-option ${activeClass==='desktop' && 'is-active'}`} onClick={()=>{setActiveClass('desktop')}} ><i className="uil uil-desktop"></i>Desktop</a>
-  </p>
 
-  <section className='columns is-flex is-flex-wrap-wrap is-justify-content-space-around' >
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
-    <Card />
+<Fade left>
+<section className='columns is-flex is-flex-wrap-wrap is-justify-content-flex-start' >
+    {
+    projects ?
+    (
+      projects.map((x,i)=>{
+          return(
+            <Card key={i} name={x.name} urlGit={x.html_url} urlPage={x.url_site} description={x.description} languaje={x.languaje} image={x.image} />
+          )
+      })
+    ) :
+    (
+      <div>No carga</div>
+    )
+  }
   </section>
-
-  <About />
-</main>
+</Fade>
+</section>
 };

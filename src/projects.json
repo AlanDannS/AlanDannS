@@ -1,0 +1,99 @@
+[
+    {
+
+        "name": "API Rick & Morty",
+        "html_url": "https://github.com/AlanDannS/APIRick-Morty",
+        "description": "En este projecto consumimos la Api de Rick&Morty",
+        "image": "https://raw.githubusercontent.com/AlanDannS/APIRick-Morty/master/principalRick.png",
+        "languaje":[
+            {
+                "name":"HTML"
+            },
+            {
+                "name":"CSS"
+            },
+            {
+                "name":"JavaScript"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/APIRick-Morty/"
+    },
+    {
+        "name": "Todo List",
+        "html_url": "https://github.com/AlanDannS/formularios-React",
+        "description": "Crud simple que lista, edita y elimina actividades dentro de el sitio",
+        "image": "https://raw.githubusercontent.com/AlanDannS/formularios-React/master/img_principal.png",
+        "languaje":[
+            {
+                "name":"React"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/formularios-React/"
+    },
+    {
+        "name": "Interfaz tarjeta",
+        "html_url": "https://github.com/AlanDannS/Interfaz-tarjeta",
+        "description": "Interfaz creada para cargar y validar datos de una tarjeta.",
+        "image": "https://raw.githubusercontent.com/AlanDannS/Interfaz-tarjeta/master/principal.png",
+        "languaje":[
+            {
+                "name":"HTML"
+            },
+            {
+                "name":"CSS"
+            },
+            {
+                "name":"JavaScript"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/Interfaz-tarjeta/"
+    },
+    {
+        "name": "La Manzanilla",
+        "html_url": "https://github.com/AlanDannS/LaManzanilla",
+        "description": "Creado para implementar y probar la libreria fullpage.js",
+        "image": "https://raw.githubusercontent.com/AlanDannS/LaManzanilla/master/principal.png",
+        "languaje":[
+            {
+                "name":"HTML"
+            },
+            {
+                "name":"CSS"
+            },
+            {
+                "name":"JavaScript"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/LaManzanilla/#home"
+    },
+    {
+        "name": "PasswordGenerator",
+        "html_url": "https://github.com/AlanDannS/PasswordGenerator",
+        "description": "Un generador de contraseñas creado con Javascript",
+        "image": "https://raw.githubusercontent.com/AlanDannS/PasswordGenerator/main/principal.png",
+        "languaje":[
+            {
+                "name":"HTML"
+            },
+            {
+                "name":"CSS"
+            },
+            {
+                "name":"JavaScript"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/PasswordGenerator/"
+    },
+    {
+        "name": "Pokedex",
+        "html_url": "https://github.com/AlanDannS/Pokedex",
+        "description": "Proyecto desarrollado con React haciendo uso de PokeApi",
+        "image": "https://raw.githubusercontent.com/AlanDannS/Pokedex/main/pokedeximg.png",
+        "languaje":[
+            {
+                "name":"React"
+            }
+        ],
+        "url_site":"https://alandanns.github.io/Pokedex/"
+    }
+]

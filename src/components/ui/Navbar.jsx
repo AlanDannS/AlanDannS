@@ -6,22 +6,9 @@ export const Navbar = () => {
 
     React.useEffect(()=>{
       if(theme){
-        document.getElementById('ht').style.backgroundColor='#efefef';
-        document.getElementById('body').style.color='#000';
-        const cards = document.getElementsByClassName('card');
-        for (let i = 0 ; i <cards.length ; i++){
-          cards[i].style.backgroundColor= '#efefef';
-          cards[i].style.boxShadow= ' 2px 3px 17px -15px rgba(33,33,33,1)';
-        }
+        document.documentElement.setAttribute('tema', 'light');
       }else{
-        document.getElementById('ht').style.backgroundColor='#212121';
-        document.getElementById('body').style.color='#fff';
-        const cards = document.getElementsByClassName('card');
-        for (let i = 0 ; i <cards.length ; i++){
-          cards[i].style.backgroundColor= '#212121';
-          cards[i].style.boxShadow= ' 2px 3px 17px -15px rgba(239,239,239,1)';
-        }
-        
+        document.documentElement.setAttribute('tema', 'dark');
       }
     });
 
@@ -45,23 +32,27 @@ export const Navbar = () => {
   
       <div className="navbar-end">
         <div className="navbar-item" id="menu-nav">
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="#home">
+          Home
+        </a>
+
+        <a className="navbar-item" href="#about">
           About
         </a>
   
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="#projects">
           Projects
         </a>
 
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="#contact">
           Contact
         </a>
 
-        <a href="#" className={`button btn-theme ${theme ? "active": ""}`} onClick={()=>{setTheme(!theme)}} >
+        <button className={`button btn-theme ${theme ? "active": ""}`} onClick={()=>{setTheme(!theme)}} >
         {
           theme ? (<i className="uil uil-sun"></i>) : (<i className="uil uil-moon"></i>)
         }
-        </a>
+        </button>
 
   
         </div>
