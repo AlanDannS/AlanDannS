@@ -9,6 +9,7 @@ export const Projects = () => {
 
   React.useEffect(()=>{
     setProjects(proyectosData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[proyectosData]);
 
   return <section id="projects" className="projects" >

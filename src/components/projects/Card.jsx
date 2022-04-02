@@ -14,6 +14,7 @@ export const Card = ({
   React.useEffect(() => {
     setImg(image);
     setTech(languaje);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

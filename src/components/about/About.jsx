@@ -1,6 +1,6 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import imgAbout from "../../img/about.svg";
+/* import imgAbout from "../../img/about.svg"; */
 import { Education } from "./Education";
 import { Experience } from "./Experience";
 import { Skills } from "./Skills";
@@ -15,7 +15,7 @@ export const About = () => {
           <h2>About me</h2>
           <div className="columns is-flex is-flex-wrap-wrap is-justify-content-space-around content-info-about">
             <img
-              src={imgAbout}
+              src="./img/about.svg"
               alt=""
               className="column is-one-third-desktop  img-about"
             />
